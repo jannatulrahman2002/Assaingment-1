@@ -1,0 +1,1 @@
+Desing a easy sponsors section with html and css for my website ,which related to Devconf 2026.
