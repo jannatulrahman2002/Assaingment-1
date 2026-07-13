@@ -70,6 +70,7 @@ h1{
   font-weight: bold;
   font-size: 50px;
 }
+/* speaker section */
 h2{
   font-size: 30px;
   font-weight: bold;
@@ -121,6 +122,143 @@ h2{
 .speaker-info p{
   color: #575757;
 }
+/* pricing */
+.spot{
+  text-align: center;
+  margin: 20px;
+}
+.spot h2{
+  font-weight: bold;
+  color: #0D1B2A;
+}
+.spot p{
+  color: #575757;
+}
+.card-container{
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns:repeat(3, 1fr) ;
+  gap: 30px;
+  
+  
+}
+.card-container div{
+  
+  width:370px ;
+  height: 444px;
+  padding:20px ;
+  
+  
 
   
+
+}
+.Standard{
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 16px;
+  padding: 30px;
+
+
+ 
+ 
+
+}
+.Standard p   {
+  color: #333333;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d9d9d9;
+}
+ul{
+  list-style: disc ;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  color: #333333;
+
+}
+
+.Standard button{
+  background-color:#FFFFFF ;
+  color: #2563EB;
+  border:2px solid #1D4ED8;
+  margin-top: 45px;
+  justify-self: center; 
+  position:absolute;
+  height: 45px;
+  width:300px ;
+}
+
+.Pro{
+background-color: #05101c;
+border: 10px #E5E7EB;
+border-radius: 16px;
+padding: 30px;
+
+}
+.Pro h6{
+  color: #93C5FD;
+}
+.Pro h3{
+  color:#FFFFFF ;
+}
+
+
+.Pro p{
+  color: #FFFFFF;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.Pro ul{
+  list-style: disc ;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  color: #E5E7EB;
+
+}
+.Pro button{
+  background-color:#2563EB ;
+  color: #FFFFFF;
+  border:2px solid #1D4ED8;
+  margin-top: 45px;
+  justify-self: center; 
+  position:absolute;
+  height: 45px;
+  width:300px ;
+}
+.team{
+  
+  background-color:#FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 16px;
+  padding: 30px;
+}
+.team p{
+  color: #333333;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d9d9d9;
+
+}
+  .team ul{
+    list-style: disc ;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  color: #333333;
+
+  }
+  .team button{
+    background-color:#FFFFFF ;
+  color: #2563EB;
+  border:2px solid #1D4ED8;
+  margin-top: 45px;
+  justify-self: center; 
+  position:absolute;
+  height: 45px;
+  width:300px ;
+  }
+  ul li::marker{
+    color: #2563EB;
+  }
 
