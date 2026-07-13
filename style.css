@@ -169,7 +169,7 @@ h2{
   padding-bottom: 10px;
   border-bottom: 1px solid #d9d9d9;
 }
-ul{
+.Standard ul{
   list-style: disc ;
   display: flex;
   flex-direction: column;
@@ -258,7 +258,74 @@ padding: 30px;
   height: 45px;
   width:300px ;
   }
-  ul li::marker{
+  .card-container ul li::marker{
     color: #2563EB;
+  }
+  /* sponsor start */
+.sponsor h3{
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.google{
+  display: flex;
+  align-items: center;
+  
+}
+.google img{
+  width: 80px;
+  height: auto;
+}
+.google p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.Microsoft{
+  display: flex;
+  align-items: center;
+}
+.Microsoft img{
+  width: 80px;
+  height: auto;
+}
+.Microsoft p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.netlify{
+  display: flex;
+  align-items: center;
+}
+.netlify img{
+  width: 80px;
+  height: auto;
+}
+.netlify p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.s-info{
+  display: flex;
+  justify-content: space-between;
+}
+/* footer */
+  footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:#0D1B2A ;
+    padding: 5px 5%;
+    text-align: center;
+  }
+  footer p{
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+  }
+  footer div ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: #FFFFFF;
   }
 
