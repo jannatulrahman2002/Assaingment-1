@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color:#FFFFFF ;
+  align-items: center;
+  padding: 10px 5%;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+}
+a{
+  text-decoration: none;
+  color: #557755;
+}
+button{
+  background-color: #1D4ED8;
+  color: #FFFFFF;
+  height: 40px;
+  width: 192px;
+  border-radius: 12px;
+}
